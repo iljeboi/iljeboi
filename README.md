@@ -22,7 +22,7 @@ class App extends Component{
 
     render(){
         return(
-            <div>
+            <div className="parent">
                 <p className="intro">
                     Hello! my name is {this.state.name} and I {this.state.knowsReact ? 
                     "am" : "am not"} well-versed in React. 
